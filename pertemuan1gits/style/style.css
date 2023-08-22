@@ -1,0 +1,85 @@
+/* Gaya untuk body */
+*{  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+/* Gaya untuk header */
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+body{
+    background: rgb(0,251,57);
+    background: linear-gradient(90deg, rgba(0,251,57,1) 0%, rgba(90,238,86,1) 35%, rgba(0,212,255,0.8492647058823529) 100%);
+}
+
+/* Gaya untuk container */
+.container {
+    width: 100% !important;
+    height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container .row  .profile{
+    display: flex ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .row .profile .img-man{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.container .row .profile .img-man img{
+    width: 310px;
+}
+
+.list-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* Gaya untuk list-group */
+.list-group {
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.list-group-item{
+    background-color: #dee2e63b;
+    transition: 0.5s ease;
+}
+.list-group-item:hover{
+    background-color: #539fec76;
+}
+/* Gaya untuk list-group-item */
+.list{
+    width: 50%;
+    border: none;
+}
+
+/* Gaya untuk card */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Gaya untuk card-body */
+.card-body {
+    padding: 15px;
+}
+li {
+    color: white;
+}
