@@ -4,7 +4,7 @@
     'nama'=>'Lukman Hakim',
     'jurusan'=>'Teknik Informatika',
     'universitas'=>'Universitas Muhammadiyah Cirebon',
-    'hobby'=>'Main Game',
+    'hobby'=>'Bermain Game',
     'tujuan_ikut'=>'Tujuannya ingin belajar lebih dalam tentang web developer',
   ];
 ?>
